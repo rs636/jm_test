@@ -1,0 +1,24 @@
+*{margin: 0px; padding:0px;}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+ul{list-style-type: none;}
+a{text-decoration: none; color:black;}
+
+/*처음부터 다시 만들자!*/
+
+
+.scrollContent{ /*컨텐츠 스크롤 구현*/
+    margin-top:50px;
+    width: 100%;
+    height: 100vw; /*아래로 백퍼센트 채워주기*/
+}
+
+#navigator{ /*우측 중단 네비게이터*/
+    position: fixed;
+    top: 200px;
+    right: 80px;
+}

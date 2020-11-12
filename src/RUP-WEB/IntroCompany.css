@@ -1,0 +1,32 @@
+#Company{ /*전체 화면*/
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+
+.buttonR{
+    display: none;
+}
+
+.buttonR + span{ /*기본일 때*/
+    display:inline-block;
+    background:none;
+    border:1px solid #dfdfdf; 
+    padding:0px 10px;
+    text-align:center;
+    height:35px;
+    line-height:33px;
+    font-weight:500;
+    cursor:pointer;
+}
+
+.buttonR:checked +span{ /*버튼 체크시*/
+    border:1px solid rgb(119, 218, 89);
+    background: rgb(119, 218, 89);
+    color:#fff;
+}
+
+#tmbl{
+    width: 380px;
+    height: 520px;
+}

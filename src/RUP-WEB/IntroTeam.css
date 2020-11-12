@@ -1,0 +1,31 @@
+#team{ /*전체 화면*/
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+
+img{ /*이미지 크기*/
+    width: 150px;
+    height: 180px;
+}
+
+#team div{ /* 세로로 10px씩 띄워줌*/
+    margin-bottom: 10px;
+}
+
+#team1 div{ /* 세명씩 가로로*/
+    display: inline-block;
+}
+
+#team2 div{
+    display: inline-block;
+}
+
+.team1_1, .team2_1{ /*공백 조금씩 만들어주기*/
+    width: 230px;
+}
+
+.name{
+    display: inline;/*이거 해줘야 엔터안들어감*/
+    font-weight: 600;/*굵게*/
+}

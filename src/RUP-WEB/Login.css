@@ -1,0 +1,19 @@
+#mainLogin{ /*로그인 화면 전체*/
+    padding-left: 42%; /*안쪽 왼쪽 여백42%로 가운데로 당겨줌*/
+    /*text-align:center; 해버리면 글자크기 차이때문에 이상해짐*/
+    position: relative;
+    top: 150px;
+}
+
+.divLogin{/*input앞의 텍스트들*/
+    display: inline-block; /*div쓰면 원래 줄 변경되는데 개행없도록*/
+    width: 70px;
+}
+
+#btnLogin{/*로그인 버튼*/
+    background-color: green;
+    color:white;
+    border: none;
+    width: 100px;
+    height: 25px;
+}
